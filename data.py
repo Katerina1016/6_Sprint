@@ -1,6 +1,6 @@
 class Urls:
     YA_DZEN_URL = 'https://dzen.ru/?yredirect=true'  # URL - адрес страницы Яндекс. Дзен
-    MAIN_PAGE = 'https://qa-scooter.praktikum-services.ru/'  # URL - адрес основной страницы
+    BASE_PAGE = 'https://qa-scooter.praktikum-services.ru/'  # URL - адрес основной страницы
 
 
 class DropDownListsTexts: # Тексты в выпадающих списках

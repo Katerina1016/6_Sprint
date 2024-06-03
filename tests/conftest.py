@@ -8,6 +8,6 @@ from data import Urls
 def driver():
     driver = webdriver.Firefox()
     driver.fullscreen_window()
-    driver.get(Urls.MAIN_PAGE)
+    driver.get(Urls.BASE_PAGE)
     yield driver
     driver.quit()

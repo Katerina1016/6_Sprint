@@ -34,3 +34,6 @@ class MainPage:
 
     def switch_to_the_new_tab(self):  # Переключить на новую вкладку
         self.driver.switch_to.window(self.driver.window_handles[1])
+
+    def wait_navigating_url(self, url):
+        WebDriverWait(self.driver, 10).until(ec.url_to_be(url))

@@ -1,7 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
-class MainPageLocators:
+class BasePageLocators:
     logo_yandex = (By.CLASS_NAME, 'Header_LogoYandex__3TSOI')  # логотип "Яндекс"
     logo_scooter = (By.CLASS_NAME, 'Header_LogoScooter__3lsAR')  # Логотип "Самокат"
     scooter_logo_text = (By.CLASS_NAME, 'Header_Disclaimer__3VEni')  # Текст "Учебный тренажер"
